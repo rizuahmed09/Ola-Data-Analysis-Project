@@ -50,10 +50,12 @@ SELECT COUNT(*) AS Total_Bookings
 FROM bookings;
 
 Cancelled rides (by customer or driver):
-
+```sql
 SELECT COUNT(*) AS Cancelled_Bookings
 FROM bookings
 WHERE Booking_Status IN ('Canceled by Customer', 'Canceled by Driver');
+
+---
 
 🏆 Key Features
 Maintained 62% success rate for bookings
@@ -97,4 +99,4 @@ Key performance indicators (KPIs) for ride value, success rate, and more
 
 📬 Contact
 📧 Email: rizuahmed09@gmail.com
-🔗 LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/muntas1r/](https://www.linkedin.com/in/muntas1r/)
+🔗 LinkedIn: https://www.linkedin.com/in/muntas1r/](https://www.linkedin.com/in/muntas1r/
