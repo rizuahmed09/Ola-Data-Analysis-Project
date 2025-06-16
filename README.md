@@ -27,7 +27,10 @@ This project tracks more than **20 fields**, including:
 * **Ride Metrics** – VTAT, CTAT, ride distance, and more
 * **Payment Methods & Booking Values** – tiered for comparison
 
-> 📷 *Screenshots will appear here once added to the repo*
+![Dashboard Screenshot](images/dashboard1.png)
+![Dashboard Screenshot](images/dashboard2.png)
+
+
 
 ---
 
