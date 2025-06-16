@@ -1,61 +1,44 @@
-# Ola-Data-Analysis-Project
+# Ride Booking Data Analysis – Bangalore, July 2024
 
+## 📁 Project Overview
 
-## 🚀 Project Overview
-
-This data analytics project analyzes ride booking data for Bangalore during July 2024 using **Excel**, **MySQL**, and **Power BI**. The main goal is to identify booking trends, cancellation patterns, and customer behavior insights that can help improve operational efficiency and customer satisfaction for a ride-hailing platform.
-
----
-
-## 🛠 Tools & Technologies Used
-
-- **Excel** – Data cleaning and preprocessing
-- **MySQL** – Data storage, querying, and transformation
-- **Power BI** – Dashboard creation and interactive visualizations
-- **GitHub** – Version control and portfolio showcase
+This project analyzes ride booking data for Bangalore during **July 2024** using **Excel**, **MySQL**, and **Power BI**. The goal is to observe basic trends in bookings, cancellations, and ride types over the month.
 
 ---
 
-## 📊 Key Dashboards & Insights
+## 🔧 Tools Used
 
-> _(You can add screenshots below each heading later)_
-
-### 1. Total Bookings Overview
-- Total number of rides booked in July 2024
-- Breakdown by day and time
-- Cancellation rate vs successful rides
-
-### 2. Cancellations Analysis
-- Number of cancellations by customers vs drivers
-- Peak cancellation hours
-- Cancellation reasons (if available)
-
-### 3. Payment & Ride Type Distribution
-- Ride type (Economy, Premium, etc.) wise bookings
-- Payment method preferences (Cash, UPI, Wallet)
-
-### 4. Customer Trends
-- Repeat vs new customers
-- Top customers by number of bookings
-
-### 5. Geographic Insights
-- Pickup and drop locations heatmap (within Bangalore)
-- High-demand zones
+- **Excel** – Data cleaning and formatting
+- **MySQL** – Data querying and aggregation
+- **Power BI** – Dashboard and basic visuals
 
 ---
 
-## 🗃 Sample Dataset
+## 📊 Dashboard Features
 
-- **Source:** Internally prepared / synthetic data representing Bangalore ride bookings
-- **Time Period:** July 1 to July 31, 2024
-- **Format:** `.xlsx` and exported to MySQL database
+> _(Add screenshots below after uploading images)_
+
+- Total number of bookings and daily trends
+- Cancelled rides by customers and drivers
+- Count of rides by ride type
+- Simple summary visuals (bar charts, tables)
 
 ---
 
-## 🔍 SQL Queries Used
+## 🗃 Dataset Info
 
-Sample query for cancelled bookings:
+- **City:** Bangalore  
+- **Month:** July 2024  
+- **Source Format:** Excel  
+- **Imported Into:** MySQL for querying  
+- **Final Output:** Power BI dashboard (`.pbix`)
+
+---
+
+## 🧠 Sample SQL Queries Used
+
+Count total bookings:
+
 ```sql
-SELECT COUNT(*) AS Cancelled_By_Customer
-FROM bookings
-WHERE LOWER(TRIM(Booking_Status)) = 'canceled by customer';
+SELECT COUNT(*) AS Total_Bookings
+FROM bookings;
