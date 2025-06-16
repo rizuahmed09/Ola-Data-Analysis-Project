@@ -31,32 +31,35 @@ This project tracks more than **20 fields**, including:
 
 ---
 
-```text
-🏆 Key Features
+## 🏆 Key Features
 
-• Overall booking success rate maintained at 62 %
-• Cancellation rates
-    • Customer‑initiated < 7 %
-    • Driver‑initiated    < 18 %
-• Demand spikes modelled on weekends & cricket‑match days
-• Balanced order values
-    – 70 % of rides under ₹ 500
-    – 28 % of rides above ₹ 500
-    – Remainder above ₹ 100
-• Insights extracted
-    – Higher booking values & longer distances on weekends
-    – Top cancellation reasons highlighted for service tweaks
-```
+* Overall booking success rate maintained at **62%**
+* **Cancellation rates:**
 
-```text
-📈 Dashboards & Insights
+  * Customer-initiated: **< 7%**
+  * Driver-initiated: **< 18%**
+* Simulated real-world demand spikes on **weekends** and **match days**
+* **Balanced order values:**
 
-Power BI report pages include:
-– Trend view (daily bookings & success rates)
-– Cancellation analysis (driver vs customer)
-– Ride‑type and payment‑method breakdowns
-– KPI summary card deck for quick status checks
-```
+  * 70% of rides under ₹500
+  * 28% of rides above ₹500
+  * Remaining above ₹100
+* **Key insights:**
+
+  * Higher booking values and ride distances on weekends
+  * Frequent cancellation reasons analyzed for improving service quality
+
+---
+
+## 📈 Dashboards & Insights
+
+* **Power BI Report:** Includes detailed pages analyzing trends, cancellation rates, and booking behavior.
+* **Dashboard Views:** Provide insights into:
+
+  * Total bookings vs. cancellations
+  * Vehicle type and payment method breakdowns
+  * Booking value distribution
+  * Key performance indicators (KPIs)
 
 ---
 
@@ -74,7 +77,8 @@ Power BI report pages include:
 ## 🧠 Sample SQL Queries
 
 ```sql
--- 1. Total bookings\ nSELECT COUNT(*) AS Total_Bookings
+-- 1. Total bookings
+SELECT COUNT(*) AS Total_Bookings
 FROM bookings;
 ```
 
@@ -84,7 +88,6 @@ SELECT COUNT(*) AS Cancelled_Bookings
 FROM bookings
 WHERE Booking_Status IN ('Canceled by Customer', 'Canceled by Driver');
 ```
-
 
 ## 📊 Dataset Highlights
 
@@ -96,12 +99,12 @@ Below is an example of how the dataset is structured:
 
 *(Full dataset contains 40 000+ similar rows.)*
 
-
 ---
+
 
 ## 📬 Contact
 
-• **Email:** [yourname@example.com](mailto:yourname@example.com)
-• **LinkedIn:** [https://linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+• **Email:** rizuahmed09@gmail.com)
+• **LinkedIn:** https://www.linkedin.com/in/muntas1r/
 
-
+---
